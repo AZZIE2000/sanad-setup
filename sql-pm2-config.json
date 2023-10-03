@@ -1,0 +1,12 @@
+{
+    "apps": [
+        {
+            "name": "sql-container",
+            "script": "/opt/mssql/bin/sqlservr",
+            "env": {
+                "NODE_ENV": "production",
+                "DB_CONNECTION_STRING": "Server=localhost,1433;Database=master;User Id=sa;Password=1P@ssw0rd"
+            }
+        }
+    ]
+}
